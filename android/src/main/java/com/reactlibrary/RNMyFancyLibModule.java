@@ -19,4 +19,8 @@ public class RNMyFancyLibModule extends ReactContextBaseJavaModule {
   public String getName() {
     return "RNMyFancyLib";
   }
+  @ReactMethod
+  public void sayHello() {
+
+  }
 }
